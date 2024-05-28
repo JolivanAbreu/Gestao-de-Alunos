@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: #dee2e6;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    box-shadow: 0 0 10px black;
+    background: black;
+    padding-bottom: 10px;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none; /* Remove a linha de sublinhado */
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 650px;
+    box-shadow: 0 0 10px black;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+#usuario{
+    box-shadow: 0 0 10px rgb(244, 248, 250);
+    margin-left: 200px;
+    margin-right: 50%;
+    height: 30px;
+    color: aliceblue;
+    background: white;
+    border-radius: 10px;
+    text-align: center;    
+}
+
+.Move {
+    margin-left: 400px;
+}
+
+h2 {
+    color: black;
+}
+
+button {
+    width: 100px;
+    height: 20px;
+    margin-left: 1400px;
+    background-color: azure;
+    border-radius: 5px; 
+    text-decoration: none; /* Remove a linha de sublinhado dos links dentro de botões */
+}
+
+.opcoes {
+    width: 300px; /* Reduzi a largura das opções para caberem lado a lado */
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    color: white; /* Defini a cor do texto como branca */
+    padding-top: 20px; /* Adicionei um espaçamento no topo */
+}
+
+.opcoes > h2 {
+    color: white;
+}
+
+.opcoes p {
+    margin-bottom: 50px; /* Adicionei um espaçamento abaixo do texto antes do input */
+}
+
+.alunos {
+    box-shadow: 0 0 10px black;
+    margin-top: 100px;
+    background-color: black;    
+}
+
+.disciplinas {
+    box-shadow: 0 0 10px black;
+    margin-top: 100px;
+    background-color: black;
+}
+
+.d-flex {
+    display: flex; /* Use flexbox */
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly; /* Distribui os elementos igualmente */
+}
+
+input {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+

@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: #dee2e6;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    box-shadow: 0 0 10px black;
+    background: black;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* Remove a linha de sublinhado */
+}
+
+#usuario{
+    box-shadow: 0 0 10px rgb(244, 248, 250);
+    margin-left: 200px;
+    margin-right: 50%;
+    height: 30px;
+    color: aliceblue;
+    background: white;
+    border-radius: 10px;
+    text-align: center;    
+}
+
+.Move {
+    margin-left: 400px;
+}
+
+h2 {
+    color: black;
+}
+
+button {
+    width: 100px;
+    height: 20px;
+    background-color: azure;
+    border-radius: 5px; 
+    text-decoration: none; /* Remove a linha de sublinhado dos links dentro de botões */
+    margin-right: 20px;
+}
